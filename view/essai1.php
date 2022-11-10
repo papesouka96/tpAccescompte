@@ -30,19 +30,25 @@ error_reporting(E_ALL & ~E_DEPRECATED);
         $messageId=$_SESSION["Id"]=$tab[0]["id"];
         $_SESSION["etat"]=$tab[0]["etat"];
 
-
-        $_SESSION["LeRole"]=strtoupper($tab[0]["role"]);
-       /*     var_dump( $_SESSION["Id"]);
-        die  ;   */
-        // $message.="connection reussi";
-        if($_SESSION["LeRole"]=="ADMIN")
-        {
-            header("Location:PAgeadmin.php?id=$person->id ");
-        } else if($_SESSION["LeRole"]=="USER")
+    /*  var_dump( $_SESSION["etat"]);
+             die  ;  */  
+        if( $_SESSION["etat"]==0){
+            $_SESSION["LeRole"]=strtoupper($tab[0]["role"]);
+            /*     var_dump( $_SESSION["Id"]);
+             die  ;   */
+             // $message.="connection reussi";
+             if($_SESSION["LeRole"]=="ADMIN")
              {
-                header("Location:pageUser.php");
+                 header("Location:PAgeadmin.php?id=$person->id ");
+             } else if($_SESSION["LeRole"]=="USER")
+                  {
+                     header("Location:pageUser.php");
+                  }
              }
-		}}
+             $message="<li>Ce compte est archivé!</li>";
+            }
+        }
+  
  /*    }
     $tab=$res->fetchAll();
     // var_dump($tab);
