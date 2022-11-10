@@ -1,0 +1,674 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700,600");
+
+.page-connection-3{
+    align-items: start;
+    background-color: white;
+    border: 1px none;
+    display: flex;
+    gap: 4389px;
+    overflow: hidden;
+    width: 100%;
+    
+    
+}
+.hidden,
+.hidden *{
+    pointer-events: none;
+    visibility: hidden;
+
+}
+.overlap-group {
+    height: 1000px;
+    margin-top: 1px;
+    position: relative;
+    width: 100%;
+    margin-left: -240px;
+}
+.mot-de-passe {
+    left: 370px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 555px;
+}
+
+.title{
+    left: 519px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 295px;
+    width: 388px;
+
+}
+
+.rectangle-7 {
+    background-color: var(--white);
+    
+    height: 50px;
+    left: 362px;
+    position: absolute;
+    top: 433px;
+    transform: rotate(-0.53deg);
+    width: 716px;
+
+}
+.CI_Nom {
+    background-color: var(--white);
+    
+    height: 50px;
+    left: 310px;
+    position: absolute;
+    top: 430px;
+    transform: rotate(-0.53deg);
+    width: 382px;
+
+}
+#nom {
+    width: 382px;
+    height: 50px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 24px;
+    background-color:white; 
+}
+.CI_Prenom {
+    background-color: var(--white);
+    
+    height: 50px;
+    left: 780px;
+    position: absolute;
+    top: 425px;
+    transform: rotate(-0.53deg);
+    width: 382px;
+
+}
+#prenom {
+    width: 382px;
+    height: 50px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 24px;
+    background-color:white; 
+}
+
+.CI_email {
+    background-color: var(--white);
+    
+    height: 50px;
+    left: 310px;
+    position: absolute;
+    top: 533px;
+    transform: rotate(-0.53deg);
+    width: 382px;
+
+}
+#email {
+    width: 382px;
+    height: 50px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 24px;
+    background-color:white; 
+}
+.CI_Role {
+    background-color: white;
+    
+    height: 50px;
+    left: 780px;
+    position: absolute;
+    top: 533px;
+    transform: rotate(-0.53deg);
+    width: 382px;
+
+}
+#role {
+    width: 382px;
+    height: 50px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 24px;
+    background-color:white;
+}
+
+.CI_Password {
+    background-color: white;
+    
+    height: 50px;
+    left: 780px;
+    position: absolute;
+    top: 642px;
+    transform: rotate(-0.53deg);
+    width: 382px;
+
+}
+#password {
+    width: 382px;
+    height: 50px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 24px;
+   
+}
+.CI_rePassword {
+    background-color: white;
+    
+    height: 50px;
+    left: 310px;
+    position: absolute;
+    top: 642px;
+    transform: rotate(-0.53deg);
+    width: 382px;
+    caret-color: red;
+
+}
+#repass {
+    width: 382px;
+    height: 50px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 24px;
+    background-color:white;
+}
+.CI_Photo {
+    background-color: white;
+    
+    height: 50px;
+    left: 310px;
+    position: absolute;
+    top: 742px;
+    transform: rotate(-0.53deg);
+    width: 382px;
+    border: solid;
+    display: flex;
+
+}
+#photo {
+    width: 382px;
+    height: 50px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 20px;
+    background-color:white;
+    display: none;
+    
+}
+#photo1 {
+    top: 800px;
+    width: 352px;
+    height: 50px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 20px;
+   
+    
+}
+.rectangle-9 {
+    background-color: -white;
+    
+    height: 50px;
+    left: 362px;
+    position: absolute;
+    top: 580px;
+    transform: rotate(-0.53deg);
+    width: 716px;
+    
+}
+
+.rectangle-2{
+    height: 134px;
+    left: 601px;
+    object-fit: cover;
+    position: absolute;
+    top: 193px;
+    width: 205px;
+
+}
+.inscription {
+    color: #F79C17;
+    font-family: IBM Plex Sans ;
+    font-size: 24px;
+    left: 323px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 796px;
+
+}
+.connecter {
+    color: #F79C17;
+    font-family: IBM Plex Sans ;
+    font-size: 24px;
+    left: 323px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 800px;
+
+}
+.connecter3 {
+    color: #F79C17;
+    font-family: IBM Plex Sans ;
+    font-size: 24px;
+    left: 323px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 900px;
+
+}
+.connecter1 {
+    color: #F79C17;
+    font-family: IBM Plex Sans ;
+    font-size: 24px;
+    left: 323px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 750px;
+
+}
+.rectangle-1 {
+    height: 421px;
+    left: -275px;
+    object-fit: contain repeat;
+    position: absolute;
+    top: 0;
+    width:2000px ;
+    
+
+}
+.se-connecter {
+    cursor: pointer;
+    font-family: IBM Plex Sans ;
+    font-size: 32px;
+    left: 1000px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 723px;
+    background-color: #F79C17;
+    height: 64px;
+    left: 500px;
+
+    width: 462px;
+}
+.inscrire {
+    cursor: pointer;
+    font-family: IBM Plex Sans ;
+    font-size: 32px;
+   
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 835px;
+    background-color: #F79C17;
+    height: 55px;
+    left: 310px;
+
+    width: 382px;
+}
+.inscrire1 {
+    cursor: pointer;
+    font-family: IBM Plex Sans ;
+    font-size: 32px;
+   
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 650px;
+    background-color: #F79C17;
+    height: 55px;
+    left: 310px;
+
+    width: 382px;
+}
+.rectangle-3 {
+    background-color: #ffffff;
+    border: 5px solid;
+    border-color: #251778;
+    height: 800px;
+    left: 264px;
+    position: absolute;
+    top: 170px;
+    width: 952px;
+}
+.rectangle-31{
+    background-color: #ffffff;
+    border: 5px solid;
+    border-color: #251778;
+    height: 700px;
+    left: 264px;
+    position: absolute;
+    top: 170px;
+    width: 952px;
+}
+.rectangle-32{
+    background-color: #ffffff;
+    border: 5px solid;
+    border-color: #251778;
+    height: 620px;
+    left: 264px;
+    position: absolute;
+    top: 170px;
+    width: 952px;
+}
+.email{
+    left: 370px;
+    letter-spacing: 0;
+    
+    position: absolute;
+    text-align: center;
+    top: 408px; 
+}
+.desktop-8 {
+    background-color: red;
+    border: 1px none;
+    height: 1024px;
+    margin-left: -5829px;
+    margin-top: -1682px;
+    width: 2000px;
+}
+#Email {
+    width: 716px;
+    height: 50px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 24px;
+    background-color:white;
+}
+
+#Password {
+    width: 716px;
+    height: 50px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 24px;
+
+}
+#messagerC3{
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    left: 370px;
+    top: 495px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: start;
+    
+    color: #EC180A; 
+}
+#messagerC5 {
+    position: absolute;
+width: 388px;
+height: 51px;
+left: 370px;
+top: 645px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 26px;
+text-align: start;
+
+color: #EC180A;
+}
+.messagerr3 {
+    position: absolute;
+width: 578px;
+height: 38px;
+left: 451px;
+top: 355px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 31px;
+text-align: center;
+
+color: #000000;
+
+
+background: rgba(209, 10, 10, 0.54);
+}
+.NomI{
+    left: 310px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 406px;
+    font-size: 20px;
+    font-family: IBM Plex Sans ;
+}
+.PrenomI{
+    left: 780px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 402px;
+    font-size: 20px;
+    font-family: IBM Plex Sans ;
+}
+.emailI{
+    left: 310px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 510px;
+    font-size: 20px;
+    font-family: IBM Plex Sans ; 
+}
+.RoleI{
+    left: 780px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 510px;
+    font-size: 20px;
+    font-family: IBM Plex Sans ; 
+}
+.mot-de-passeI{
+    left: 310px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 620px;  
+    font-size: 20px;
+    font-family: IBM Plex Sans ;
+}
+.remot-de-passeI{
+    left: 780px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 620px; 
+    font-size: 20px;
+    font-family: IBM Plex Sans ;
+}
+.PhotoI{
+    left: 310px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 720px; 
+    font-size: 20px;
+    font-family: IBM Plex Sans ;
+}
+#messagerI1{
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    left: 310px;
+    top: 486px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: start;
+    
+    color: #EC180A; 
+
+}
+#messagerI2{
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    left: 780px;
+    top: 480px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: start;
+    
+    color: #EC180A; 
+    
+}
+#messagerI3{
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    left: 310px;
+    top: 585px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: start;
+    
+    color: #EC180A; 
+    
+}
+.messagerI4{
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    left: 780px;
+    top: 585px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: start;
+    
+    color: #EC180A; 
+    
+}
+#messagerI5{
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    left: 310px;
+    top: 695px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: start;
+    
+    color: #EC180A; 
+    
+}
+#messagerI6{
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    left: 780px;
+    top: 695px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: start;
+    
+    color: #EC180A; 
+    
+}
+#messagerI7{
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    left: 310px;
+    top: 795px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: start;
+    
+    color: #EC180A; 
+    
+}
+#bingo{
+    color: green; position: absolute;
+    width: 260px;
+    height: 32px;
+    left: 310px;
+    top: 585px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: start;
+    
+  
+}
+.selectfile{
+    height: 40px;
+    width: 40px;
+    left: 550px;
+    background-image: url(../img/Rectangle\ 17.png);
+}
+
+
+
+
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+/* @media screen and (max-width: 1280px) */
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+/* @media all and (min-width: 1024px) and (max-width: 1280px); */
+

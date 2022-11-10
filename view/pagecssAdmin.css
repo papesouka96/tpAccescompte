@@ -1,0 +1,366 @@
+
+
+.porteph{
+    position: absolute;
+width: 350px;
+height: 945px;
+left:100px;
+top: 0px;
+
+background: #F79C17;
+}
+.logo{
+    position: absolute;
+width: 120px;
+height: 98px;
+left: 110px;
+top: 0px;
+
+
+}
+.listACT{
+    
+position: absolute;
+width: 121px;
+height: 42px;
+left: 1074px;
+top: 125px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height */
+
+text-align: center;
+text-decoration-line: underline;
+
+color: #000000;
+}
+.listACH{
+    
+   
+position: absolute;
+width: 140px;
+height: 42px;
+left: 1234px;
+top: 125px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.68);
+
+    }
+    .photo{
+
+position:absolute;
+width: 225px;
+height: 210px;
+left: 160px;
+top: 110px;
+border-radius: 150px;
+
+
+
+    }
+    .recherchamp{
+        box-sizing: border-box;
+
+position: absolute;
+width: 357px;
+height: 36px;
+left: 484px;
+top: 136px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+    }
+    .rechechamp{
+        
+font-size: xx-large;
+width: 357px;
+height: 36px;
+
+
+
+border: 1px solid #000000;
+
+    }
+    .rechericone{
+        
+position: absolute;
+width: 40px;
+height: 40px;
+left: 844px;
+top: 132px;
+
+background-image: url(../img/iconesea.png);
+
+
+
+
+    }
+    .deconect{
+
+position: absolute;
+width: 56px;
+height: 56px;
+left: 1694px;
+top: 108px;
+
+background: url(../img/deconnexion1.png);
+
+    }
+    .tableau{
+        position: absolute;
+width: 1129px;
+height: 353px;
+left: 475px;
+top: 204px;
+background-color: white;
+
+    }
+    .paginat1{
+        position: absolute;
+width: 44px;
+height: 34px;
+left: 875px;
+top: 857px;
+
+background: blue;
+transform: matrix(-0.03, -1, -1, 0.03, 0, 0);
+
+    }
+    .paginat2{
+
+position: absolute;
+width: 63px;
+height: 26px;
+left: 935px;
+top: 857px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+
+        
+    }
+    .paginat3{
+        position: absolute;
+        width: 44px;
+        height: 34px;
+        left: 1015px;
+        top: 857px;
+        
+        background:url(../img/fleched.png);
+         transform: matrix(-0.01, 1, 1, 0.01, 0, 0); 
+        
+    }
+    .Nom{
+
+        position: absolute;
+        width: 300px;
+        height: 42px;
+        left: 110px;
+        top: 314px;
+        
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 42px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        color: #000000;
+        
+    }
+    .Matricule{
+
+position: absolute;
+width: 300px;
+height: 26px;
+left: 110px;
+top: 373px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+
+    }
+ 
+    .email{
+        position: absolute;
+width: 300px;
+height: 26px;
+left: 110px;
+top: 347px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+
+    }
+    .phh1{
+
+position: absolute;
+width: 575px;
+height: 104px;
+left: 450px;
+top: 0px;
+
+background: url(../img/Rectangle8.png);
+
+    }
+    .phh2{
+        position: absolute;
+width: 752px;
+height: 104px;
+left: 1000px;
+top: 0px;
+
+background: url(../img/ihnr.png);
+
+        
+    }
+    .thtable{
+
+        position: absolute;
+width: 1112px;
+height: 353px;
+min-width: 500px;
+
+background-color: white;
+
+
+    }
+    .thtable1{
+
+        position: absolute;
+width: 1112px;
+height: 25px;
+min-width: 500px;
+
+background-color:#F79C17;
+
+
+    }
+    .trtable{
+
+       
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+
+color: #000000;
+        height: 50px;
+
+background-color: #F79C17;
+
+    } 
+    .trtable1{
+
+       
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        
+        color: #000000;
+                height: 15px;
+        
+        background-color: #F79C17;
+        
+            } .tr1table{
+
+       
+        height: 50px;
+
+background-color: white;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+
+color: #000000;
+
+    }
+ 
+
+ 
+.edid{
+   width: 35px;;
+   height: 35px;
+      
+}
+.edicine{
+    width: 45px;;
+    height: 45px;
+       
+ }
+ .flecheg{
+    width: 45px;;
+    height: 45px;
+    rotate: 90deg;
+       
+ }
+ .fleched{
+    width: 45px;;
+    height: 45px;
+    rotate: 90deg;
+       
+ }
+
+ .prof{
+    border-radius: 200%;
+    width: 200px;
+    height: 200px;
+ }
+ .disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+   background-image: none;  }
+  
