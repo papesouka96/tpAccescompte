@@ -41,7 +41,7 @@ $people = $statement->fetchAll(PDO::FETCH_OBJ);
 <body><center>
     <div class="porteph"> </div>
     <div class="logo"><img class="logo"src="../img/pr9.webp" alt=""> </div>
-    <a href="essai1.php"><div class="listACT">L.Active </div></a>
+    <a href="PAgeadmin.php"><div class="listACT">L.Active </div></a>
     <div class="listACH">L.Archivé </div>
     
     <div class="photo"><img class="prof" src="<?='data:image/jpg;base64,'.base64_encode($_SESSION['LaPhoto'])?>" alt=""></div>

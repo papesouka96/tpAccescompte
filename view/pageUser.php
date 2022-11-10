@@ -39,7 +39,7 @@ $people = $statement->fetchAll(PDO::FETCH_OBJ);
     <div class="logo"><img class="logo"src="../img/pr9.webp" alt=""> </div>
 <!--     <div class="listACT">L.Active </div>
     <div class="listACH">L.Archivé </div> -->
-    <div class="modifphoto"> <input type="file" name="mdph" class="mdp"></div>
+    <!-- <div class="modifphoto"> <input type="file" name="mdph" class="mdp"></div> -->
     <form action="" method="get" >
 <button   name="lance" type="submit"><img class="rechericone"  class="edicine" src="../img/iconesea.png" alt=""></button>
     <div class="recherchamp">

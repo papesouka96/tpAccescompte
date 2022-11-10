@@ -6,7 +6,7 @@ $_SESSION["autoriser"]="oui";
 if(@$_SESSION["autoriser"]!="oui"){
     header("location:essai1.php");
     exit();
-} 
+}  
 
    
 include("../executable/connexion.php");
@@ -49,7 +49,7 @@ $people = $statement->fetchAll(PDO::FETCH_OBJ);
 <body><center>
     <div class="porteph"> </div>
     <div class="logo"><img class="logo"src="../img/pr9.webp" alt=""> </div>
-    <a href="essai1.php?$_SESSION<?= $_SESSION["autoriser"]="oui" ?>"><div class="listACT">L.Active </div></a>
+    <a href="PAgeadmin.php"><div class="listACT">L.Active </div></a>
     <a href="pageArchive.php"><div class="listACH">L.Archivé </div></a>
     <form action="" method="get" >
 <button   name="lance" type="submit"><img class="rechericone"  class="edicine" src="../img/iconesea.png" alt=""></button>
